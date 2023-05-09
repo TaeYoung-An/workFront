@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습7</title>
+</head>
+<body>
+    <h1>주문하기</h1>
+    <form action="">
+        <p>고객명 : <input type="text" name='userName' id='userName'></p>
+        <p>전화번호 : <input type="tel" name='userTel' id='userTel'></p>
+        <p>E-mail : <input type="email" name='userEmail' id='userEmail'></p>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <p><input type="radio" name="size" id="small">Small</p>
+            <p><input type="radio" name="size" id="medium">Medium</p>
+            <p><input type="radio" name="size" id="large">Large</p>
+        </fieldset>
+        <fieldset>
+            <legend>토핑 선택</legend>
+            <p><input type="checkbox" name="tp" id="bc">베이컨</p>
+            <p><input type="checkbox" name="tp" id="cz">치즈</p>
+            <p><input type="checkbox" name="tp" id="a">양파</p>
+            <p><input type="checkbox" name="tp" id="mr">버섯</p>
+        </fieldset>
+        <p>희망 배송 시간<input type="time" name="time" id="time"></p>
+        <p>배송 시 요청사항 : <textarea name="c" id="c" cols="20" rows="3"></textarea></p>
+        <input type="submit" value="주문하기">
+    </form>
+</body>
+</html>
