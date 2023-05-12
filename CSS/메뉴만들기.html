@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline-block;
+            border: 1px solid #777;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        a{  
+            /* a요소는 inline요소이므로 width, height속성을 가지지 못함 
+            (영역을 가질수 없음 콘텐츠의 영역만 가질수 있음)
+            -> inline-block로 변경*/
+            display: inline-block;
+            text-decoration: none;
+            width: 100px;
+            height: 50px;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href='#'>메뉴1</a></li>
+        <li><a href='#'>메뉴2</a></li>
+        <li><a href='#'>메뉴3</a></li>
+        <li><a href='#'>메뉴4</a></li>
+    </ul>
+</body>
+</html>

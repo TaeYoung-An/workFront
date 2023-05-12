@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+        #ff1{
+            font-family: "궁서체";
+        }
+        #ff2{
+            font-family: "굴림체";
+        }
+        /*
+        글꼴이 없는 경우를 대비해서
+         ,를 이용하여 여러글꼴을 나열 할수 있음 
+         */
+        #ff3{
+            font-family: "없는글꼴", "궁송","고딕";
+        }
+
+        /* 웹폰트 */
+        h1{
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        .webfont{
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        #size1{
+            font-size: 30px;
+        }
+        #size2{
+            font-size: 3em;
+        }
+        #size3{
+            font-size: 150%;
+        }
+        #fw1{
+            font-weight: bold;
+        }
+        #fw2{
+            font-weight: lighter;
+        }
+        #fw3{
+            font-weight: 900;
+        }
+        #fv{
+            font-variant: small-caps;
+        }
+        #fs1{
+            font-style: italic;
+        }
+        #fs2{
+            font-style: oblique;
+        }
+        #c-name{
+            color: red;
+        }
+        #c-16{
+            color: #fff;
+            background-color: #000;
+        }
+        #c-rgb{
+            color: rgb(255,0,0);
+        }
+        #ts1{
+            font-size: 1.5em;
+            font-weight: 900;
+            text-shadow: 80px -20px black;
+        }
+        #ts2{
+            font-size: 1.5em;
+            font-weight: 900;
+            text-shadow: 80px -20px yellow;
+        }
+        #ts3{
+            font-size: 1.5em;
+            font-weight: 900;
+            text-shadow: 80px -20px rgb(0, 236, 253);
+        }
+        #tt1{
+            text-transform: none;
+        }
+        #tt2{
+            text-transform: capitalize;
+        }
+        #tt3{
+            text-transform: uppercase;
+        }
+        #tt4{
+            text-transform: lowercase;
+        }
+        table{
+            caption-side: bottom;
+            border: 1px solid #999;
+            border-collapse: collapse;
+        }
+        th,tr,td{
+            border: 1px dotted #999;
+        }
